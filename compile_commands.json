@@ -1,0 +1,27 @@
+[
+    {
+        "arguments": [
+            "g++",
+            "-c",
+            "-std=c++11",
+            "-Wno-write-strings",
+            "-Wno-extern-c-compat",
+            "-g",
+            "-O0",
+            "-DYED_DEBUG",
+            "-DYED_DO_ASSERTIONS",
+            "-fPIC",
+            "-I/home/jmcmicha/.local/include",
+            "-g",
+            "-O0",
+            "-DYED_DEBUG",
+            "-DYED_DO_ASSERTIONS",
+            "-fPIC",
+            "-o",
+            "lsp_goto_implementation.so",
+            "lsp_goto_implementation.cpp"
+        ],
+        "directory": "/home/jmcmicha/tmp_yed/new_plugins/lsp_goto_implementation",
+        "file": "lsp_goto_implementation.cpp"
+    }
+]
